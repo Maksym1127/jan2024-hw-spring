@@ -1,0 +1,13 @@
+#spring:
+#  application:
+#    name: Spring Cars Demo
+#
+#reference-data:
+#  engineTypes: Бензиновий, Дизельний, Гібридний
+#  fuels:
+#    - name: "Дизель"
+#      types: Зимовий, Лінтій, Арктичний
+#    - name: "Бензин"
+#      types: А-95, А-98, А-100
+#    - name: "Електрика"
+#      types:

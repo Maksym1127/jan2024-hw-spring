@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1.0.1"
+      author: "eokten"
+      changes:
+        - createTable:
+            tableName: "cars"
+            columns:
+              - column:
+                  name: "id"
+                  type: "bigint"
+                  autoIncrement: true # Use autoIncrement for MySQL
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: "model"
+                  type: "text"
+              - column:
+                  name: "enginePower"
+                  type: "numeric"
+              - column:
+                  name: "fuelType"
+                  type: "varchar(50)"
